@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MAq-No-FAD">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MAq-No-FAD">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -39,7 +36,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pj0-4f-1xB">
-                                <rect key="frame" x="0.0" y="64" width="375" height="578"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="598"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Fkv-ls-HnT"/>
                                 </connections>
@@ -50,7 +47,7 @@
                                     <constraint firstAttribute="height" constant="25" id="EW4-DQ-Gdk"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="gotoPage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y6Y-UI-IYS"/>
+                                    <action selector="gotoPage:" destination="BYZ-38-t0r" eventType="valueChanged" id="2l9-bP-jfo"/>
                                 </connections>
                             </pageControl>
                         </subviews>
